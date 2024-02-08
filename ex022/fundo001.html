@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando imgs de fundo</title>
+    <style>
+        body{
+            background-image: url('imagens/wallpaper005.jpg');
+            background-position: center top;
+        }
+        div.quadrado{
+            border: 2px solid black;
+            border-radius: 10px;
+            display: inline-block;
+            width: 250px;
+            height: 250px;
+        }
+
+        #q1{
+            background-color: blueviolet;
+
+        }
+
+        #q2{
+            background-image: linear-gradient( to left, green, red);
+
+        }
+
+        #q3{
+            background-image: url('imagens/pattern001.png');
+
+
+        }
+       
+        a{
+            font-weight: bold;
+            color: white;
+        }
+        a:hover{
+            padding: 2px;
+            border: 10px;
+            border-radius: 2px;
+            background-color:black;
+            transition: 0.5s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="quadrado" id="q1">
+
+    </div>
+
+    <div class="quadrado" id="q2">
+
+    </div>
+
+    <div class="quadrado" id="q3">
+
+    </div>
+    
+    <div style="text-align: center;" id="divlink">
+        <a href="fundo002.html"> próximo exemplo </a>
+    </div>
+</body>
+</html>
